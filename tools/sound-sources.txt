@@ -1,0 +1,14 @@
+- click.wav：CC0 录音 Kenney kenney_impact-sounds / impactWood_light_000.ogg（截 70 ms、升 8 %、降噪 + 带通）
+- click_2.wav：CC0 录音 Kenney kenney_impact-sounds / impactWood_light_001.ogg（截 70 ms、升 8 %、降噪 + 带通）
+- click_3.wav：CC0 录音 Kenney kenney_impact-sounds / impactWood_light_002.ogg（截 70 ms、升 8 %、降噪 + 带通）
+- draw.wav：CC0 录音 Kenney kenney_impact-sounds / impactWood_light_002.ogg（降 5 %，和棋 / 认输一声低音）
+- illegal.wav：合成（UI）两声柔和正弦拨音 440→330 Hz、快衰减（这儿有珠了 / 先放一颗），非实物声
+- land.wav：CC0 录音 Kenney kenney_impact-sounds / impactPlank_medium_000.ogg（截 200 ms、降噪 + 带通）
+- land_2.wav：CC0 录音 Kenney kenney_impact-sounds / impactPlank_medium_001.ogg（截 200 ms、降噪 + 带通）
+- lose.wav：CC0 录音 Kenney kenney_impact-sounds / impactWood_light_002.ogg（降 15 %，对手五连只低一声，不放胜利音）
+- place.wav：CC0 录音 freesound 628994（KaleidacousticsAudio，玻璃珠落木地板）https://freesound.org/people/KaleidacousticsAudio/sounds/628994/ · 第 2.88 s 起的第一下 160 ms；谱门限降噪 + 120 Hz–6 kHz 带通
+- place_2.wav：CC0 录音 freesound 628994（KaleidacousticsAudio，玻璃珠落木地板）https://freesound.org/people/KaleidacousticsAudio/sounds/628994/ · 第 0.45 s 起的第一下 160 ms；谱门限降噪 + 120 Hz–6 kHz 带通
+- place_3.wav：CC0 录音 freesound 628995（KaleidacousticsAudio，玻璃珠落木地板）https://freesound.org/people/KaleidacousticsAudio/sounds/628995/ · 第 7.02 s 起的第一下 160 ms；谱门限降噪 + 120 Hz–6 kHz 带通
+- retract.wav：CC0 录音 freesound 628997（KaleidacousticsAudio，珠子互碰）https://freesound.org/people/KaleidacousticsAudio/sounds/628997/ · 第 16.33 s 起 140 ms；降噪 + 带通
+- retract_2.wav：CC0 录音 freesound 628997（KaleidacousticsAudio，珠子互碰）https://freesound.org/people/KaleidacousticsAudio/sounds/628997/ · 第 23.80 s 起 140 ms；降噪 + 带通
+- win.wav：CC0 录音 Kenney kenney_impact-sounds / impactGlass_light_001.ogg（三次升调拼接，你的五连）
