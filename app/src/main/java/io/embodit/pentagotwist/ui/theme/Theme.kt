@@ -48,7 +48,7 @@ object PtColors {
     val MarbleBlack = Color(0xFF141418)
     val MarbleWhite = Color(0xFFF2EEE6)
     val Maple = Color(0xFFD9B88A)
-    val Walnut = Color(0xFF6E4A2B)
+    val Walnut = Color(0xFF8A5E3B)
     val WalnutDeep = Color(0xFF3E2816)
     val TagFace = Color(0xFFFBF6EC)
 }

@@ -28,8 +28,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "app", "src", "main", "assets", "models")
 
 MAPLE = (0xD9, 0xB8, 0x8A)
-WALNUT = (0x6E, 0x4A, 0x2B)
-WALNUT_FLOOR = (0x3E, 0x28, 0x16)
+WALNUT = (0x8A, 0x5E, 0x3B)   # design #6E4A2B rendered at L* 28 vs the black marble 8 (ΔL* 20 < 25): lifted to render ~35
+WALNUT_FLOOR = (0x55, 0x37, 0x20)
 MARKER = (0x5E, 0x3F, 0x24)
 OBSIDIAN = (0x14, 0x14, 0x18)
 PEARL = (0xF2, 0xEE, 0xE6)

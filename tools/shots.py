@@ -12,13 +12,13 @@ from PIL import Image
 DEV = os.environ.get("DEV", "emulator-5564")
 ADB = os.path.expanduser("~/Library/Android/sdk/platform-tools/adb")
 PKG = "io.embodit.pentagotwist"
-POSES = {"win": os.environ.get("WIN_POSE", "turn right 22 degrees then move forward 0.6 meters"),
+POSES = {"win": os.environ.get("WIN_POSE", "turn right 22 degrees then move forward 0.4 meters"),
          "board": os.environ.get("BOARD_POSE", "turn right 2 degrees then move forward 1.2 meters then look down 22 degrees")}
 
 
 # the control window's glass in a 2560 x 2558 capture at the "win" pose, for a launch made with the camera reset
-WIN_GLASS = (1130, 704, 2126, 1860)
-WIN_CROP = (1090, 540, 2166, 1900)
+WIN_GLASS = (1160, 944, 1936, 1830)
+WIN_CROP = (1120, 780, 1976, 1880)
 
 
 WIN = [

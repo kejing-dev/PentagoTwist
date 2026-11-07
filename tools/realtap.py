@@ -13,7 +13,7 @@ DEV = os.environ.get("DEV", "emulator-5564")
 ADB = os.path.expanduser("~/Library/Android/sdk/platform-tools/adb")
 PKG = "io.embodit.pentagotwist"
 OUT = sys.argv[1]
-CROP = (780, 380, 2210, 2240)
+CROP = (1120, 780, 1976, 1880)
 log = open(os.path.join(OUT, "realtap.txt"), "a", encoding="utf-8")
 
 
@@ -54,7 +54,7 @@ def shot(name):
 
 
 subprocess.run(["pico-cli", "camera", "reset", "-d", DEV], capture_output=True)
-subprocess.run(["pico-cli", "camera", "move", "-d", DEV, "--text", "turn right 40 degrees then move forward 0.8 meters"], capture_output=True)
+subprocess.run(["pico-cli", "camera", "move", "-d", DEV, "--text", "turn right 22 degrees then move forward 0.4 meters"], capture_output=True)
 cmd("lang", "zh"); cmd("freeze", "off"); cmd("coach", "off"); cmd("new", "ai black 1"); time.sleep(1.5)
 subprocess.run([ADB, "-s", DEV, "logcat", "-c"])
 # the main loop with the real pointer: place on a cell key, turn with a twist key, until the game ends (or 20 turns)

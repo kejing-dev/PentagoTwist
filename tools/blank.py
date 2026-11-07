@@ -10,7 +10,7 @@ from PIL import Image
 
 import os
 # the glass inside a tools/shots.py "win" crop (WIN_GLASS - WIN_CROP origin)
-RECT = (40, 164, 1036, 1320)
+RECT = (40, 164, 816, 1050)
 for path in sys.argv[1:]:
     im = np.asarray(Image.open(path).convert("L")).astype(float)
     x0, y0, x1, y1 = RECT
